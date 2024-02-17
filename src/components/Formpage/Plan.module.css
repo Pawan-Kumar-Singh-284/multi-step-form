@@ -1,0 +1,68 @@
+.planWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  
+  }
+
+  .planItem {
+    border: 1px solid var(--light-gray);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: calc((100% - 2rem) / 3);
+    cursor: pointer;
+  }
+
+  .planItem h2 {
+    font-weight: 500;
+    color: var(--marine-blue);
+    margin-bottom: 0.5rem;
+  }
+  
+  .planItem p {
+    color: var(--cool-gray);
+    margin-bottom: 0.5rem;
+  }
+  .planItem img {
+    margin-bottom: 2.5rem;
+  }
+
+  .planItem.active {
+    background: var(--magnolia);
+    border-color: var(--purplish-blue);
+  }
+  
+  .planItem:hover {
+    background-color: var(--magnolia);
+    border-color: var(--pastel-blue);
+  }
+  .flexParent {
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+  }
+  
+  .buttonWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: flex-end;
+  }
+
+  .durationWrapper {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem 0;
+    background: var(--alabaster);
+    border-radius: 0.5rem;
+  }
+  .durationWrapper span {
+    font-weight: 500;
+    color: var(--cool-gray);
+  }
+  .durationWrapper span.active {
+    color: var(--marine-blue);
+  }
+  

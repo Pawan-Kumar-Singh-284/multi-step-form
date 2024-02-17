@@ -1,0 +1,7 @@
+.section {
+    background: url("../assets/images/bg-sidebar-desktop.svg") no-repeat center center;
+    padding: 3rem 3.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }

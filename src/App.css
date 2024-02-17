@@ -1,0 +1,10 @@
+.main {
+    width: 58.75rem;
+    height: 37.5rem;
+    background: var(--white);
+    border-radius: 1rem;
+    box-shadow: 0px 2px 10px 0px rgba(238, 244, 251 0.15);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+  }
